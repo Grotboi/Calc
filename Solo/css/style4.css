@@ -1,0 +1,50 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: url("../img/2.jpg") no-repeat center center;
+    color: rgb(195, 0, 255);
+    margin-left: 0;
+    margin-top: 5;
+}
+a:link { /* ссылки */
+    color: rgb(255, 2, 2);  
+    }
+    a:visited { /* посещенные ссылки */ 
+    color: rgb(255, 0, 179);
+    }
+    a:active { /* активные ссылки */
+    color: rgb(51, 255, 0); 
+    }
+    
+    #menu {
+float: left;
+width: 200px;
+margin:  5px;
+padding: 10px 10px 20px 5px;
+    }
+    #menu div {
+        padding: 2px; /* поля вокруг ссылок */
+    }
+    #menu a {
+        display: block; /* отбражать ссылку как блок */
+        padding: 2px; /* поля вокруг ссылок */
+        margin: 1px; /* отступы вокруг */
+        font-size: 1.1em; /* размер текста */
+        text-decoration: none; /* убираем подчеркивание текста */
+        background: url("../img/34.jpg") no-repeat center center;
+    }
+    #menu a:hover {
+        background:#02fdb2; /*цвет фона */
+        margin: 0; /* убираем поля */
+        color: lime green; /* цвет текста */
+    }
+    #content { /* правая колонка */
+        margin: 50px 0px 0px 150px; /* отступы блока */
+        padding: 10px; /* поля внутри блока */
+        height: 80%; /* высота блока */
+        overflow: auto;
+        }
+    #gallery{text-align:center;
+        width:80%;
+        }
+        #gallery td {padding:10px;}
+        .txtgal {font-size:12px;}
